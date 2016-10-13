@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
+
     /**
      * @Route("/", name="home")
      * @param Request $request
@@ -18,4 +19,5 @@ class DefaultController extends Controller
     {
         return new Response('<html><head></head><body>ok</body>');
     }
+
 }
